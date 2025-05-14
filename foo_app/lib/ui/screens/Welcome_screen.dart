@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -103,11 +104,11 @@ class WelcomeScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SocialButton(icon: Icons.facebook, color: Colors.blue),
-                const SizedBox(width: 20),
-                SocialButton(icon: Icons.g_mobiledata, color: Colors.red),
-                const SizedBox(width: 20),
-                SocialButton(icon: Icons.alternate_email, color: Colors.lightBlue),
+                SocialButton(icon: FontAwesomeIcons.facebook, color: Colors.blue),
+    const SizedBox(width: 20),
+    SocialButton(icon: FontAwesomeIcons.google, color: Colors.red),
+    const SizedBox(width: 20),
+    SocialButton(icon: FontAwesomeIcons.twitter, color: Colors.lightBlue),
               ],
             ),
 
